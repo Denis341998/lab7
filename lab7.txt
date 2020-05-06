@@ -17,8 +17,10 @@ int main(){//commit_1
 }//commit_1
 
 void func1(){//commit_1
+  int a;//commit_9
+  a = 2;//commit_9
   int c = 3;//commit_6
-  c += 5;//commit_6
+  c += a;//commit_9
 }//commit_1
 
 int func2_upd(){//commit_7
@@ -33,6 +35,7 @@ void func3(){//commit_3
       i--;//commit_4
       i++;commit_5
       i--;//commit_8
+      i++;//commit_9
   }//commit_4
 }//commit_3
 
