@@ -4,17 +4,18 @@
 using namespace std;//commit_1
 
 int main(){//commit_1
-  string line1;//commit_5
+  string l1;//commit_6
   string user_name = "user";//commit_1
   cout << "Hello, user !" << endl;//commit_4
   cout << "Hi !" <<endl;//commit_4
+  cout << "Hi one more time!" <<endl;//commit_6
 
   return 0;//commit_1
 }//commit_1
 
 void func1(){//commit_1
-  int b = 3;//commit_5
-  b += 5;//commit_5
+  int c = 3;//commit_6
+  c += 5;//commit_6
 }//commit_1
 
 int func2(){//commit_1
@@ -31,6 +32,7 @@ void func3(){//commit_3
 }//commit_3
 
 int func4(){//commit_5
-  int tmp2;//commit_5
-  tmp2 = 3 * 8;//commit_5
+  int tmp3;//commit_6
+  tmp3 = 3 * 8;//commit_6
+  tmp3 += tmp3;//commit_6
 }//commit_5
