@@ -1,5 +1,4 @@
 #include <iostream>//commit_1
-#include <cstdlib>//commit_1
 #include <string>//commit_1
 
 using namespace std;//commit_1
@@ -20,3 +19,7 @@ int func2(){//commit_1
   int tmp1 = 1;//commit_2
   tmp1 = 3;//commit_2
 }//commit_1
+
+void func3(){//commit_3
+  char i;//commit_3
+}//commit_3
