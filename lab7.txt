@@ -10,7 +10,7 @@ int main(){//commit_1
   cout << "Hi !" <<endl;//commit_4
   cout << "Hi one more time!" <<endl;//commit_6
 
-  return 0;//commit_1
+  return 5;//commit_7
 }//commit_1
 
 void func1(){//commit_1
@@ -18,13 +18,14 @@ void func1(){//commit_1
   c += 5;//commit_6
 }//commit_1
 
-int func2(){//commit_1
-  int tmp1 = 1;//commit_2
-  tmp1 = 3;//commit_2
+int func2_upd(){//commit_7
+  int tmp3 = 1;//commit_7
+  tmp3 = 3;//commit_7
+  return 0;//commit_7
 }//commit_1
 
 void func3(){//commit_3
-  int i = 5;//commit_4
+  int i = 7;//commit_7
   for(i; i>0; i--){//commit_4
       i--;//commit_4
       i++;commit_5
@@ -35,4 +36,5 @@ int func4(){//commit_5
   int tmp3;//commit_6
   tmp3 = 3 * 8;//commit_6
   tmp3 += tmp3;//commit_6
+  return 0;//commit_7
 }//commit_5
