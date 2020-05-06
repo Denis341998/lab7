@@ -4,7 +4,6 @@
 using namespace std;//commit_1
 
 int main(){//commit_1
-  string l1;//commit_6
   string user_name = "user";//commit_1
   cout << "Hello, user !" << endl;//commit_4
   cout << "Hi !" <<endl;//commit_4
@@ -17,8 +16,8 @@ int main(){//commit_1
 }//commit_1
 
 void func1(){//commit_1
-  int c;//commit_10
-  c = 2 * 10;//commit_10
+  int a;//commit_11
+  a = 11 * 10;//commit_11
   int c = 3;//commit_6
   c += a;//commit_9
 }//commit_1
@@ -36,8 +35,7 @@ void func3(){//commit_3
   }//commit_4
 }//commit_3
 
-int func4_upd(){//commit_10
+void func4_upd(){//commit_11
   int tmp3;//commit_6
   tmp3 = 3 * 8;//commit_6
-  return 0;//commit_7
 }//commit_5
