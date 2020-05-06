@@ -1,0 +1,22 @@
+#include <iostream>//commit_1
+#include <cstdlib>//commit_1
+#include <string>//commit_1
+
+using namespace std;//commit_1
+
+int main(){//commit_1
+  string line1, line2;//commit_2
+  string user_name = "user";//commit_1
+  cout << "Hello, " << user_name << "!" << endl;//commit_1
+
+  return 0;//commit_1
+}//commit_1
+
+void func1(){//commit_1
+
+}//commit_1
+
+int func2(){//commit_1
+  int tmp1 = 1;//commit_2
+  tmp1 = 3;//commit_2
+}//commit_1
